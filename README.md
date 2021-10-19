@@ -2,6 +2,8 @@
 
 by Keiichi Morikuni, Ph.D.
 
+The program is designed to compute the eigenvalues and the corresponding eigenvectors in a circle region for a matrix pencil
+
 ## Usage
 
 To generate a tall test matrix pencil, execute the following:
