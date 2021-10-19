@@ -1,10 +1,7 @@
 function [A, B] = myrjr2(A, B, ~)
 %myrjr2    Random Jacobi rotation
 
-[m_A, n_A] = size(A);
-
-m = m_A;
-n = n_A;
+[m, n] = size(A);
 
 if numel(A)<=1 || numel(B)<=1, return, end
 
@@ -20,7 +17,7 @@ end
 A([i j],:) = [c s; -s c] * A([i j],:);
 B([i j],:) = [c s; -s c] * B([i j],:);
 
-% different random rotation of columns.
+% Different random rotation of columns.
 if nargin > 1
    theta = (2*rand-1)*pi;
    c = cos(theta);
