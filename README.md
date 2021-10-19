@@ -21,7 +21,9 @@ Then the elapsed CPU time, relative residual norm, and the relative error are ou
 
 <img src="https://user-images.githubusercontent.com/15831262/137937710-319a4a88-c14f-4702-a52e-418b2c5567f4.jpg" width="520pt">
 
-### References
+### Reference
 Keiichi Morikuni, Projection method for eigenvalue problems of linear nonsquare matrix pencils,
 SIAM Journal on Matrix Analysis and Applications, Volume 42, Number 3,
 pp. 1381-1400, September 20, 2021. DOI: [10.1137/20M1377886](https://doi.org/10.1137/20M1377886)
+
+If you use the codes in research for publication, please cite this paper.
