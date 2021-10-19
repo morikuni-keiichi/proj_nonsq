@@ -9,7 +9,6 @@ n = n_A;
 if numel(A)<=1 || numel(B)<=1, return, end
 
 % Random rotation of rows.
-
 theta = (2*rand-1)*pi;
 c = cos(theta);
 s = sin(theta);
