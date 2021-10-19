@@ -2,7 +2,7 @@
 
 by Keiichi Morikuni, Ph.D.
 
-The program is designed to compute the eigenvalues and the corresponding eigenvectors in a circle region for a matrix pencil
+The program is designed to compute the eigenvalues in a circle region and the corresponding eigenvectors for a matrix pencil
 
 ## Usage
 
