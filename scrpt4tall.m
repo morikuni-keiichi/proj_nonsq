@@ -29,7 +29,7 @@ end
 
 fprintf('m = %d, n = %d, nu = %d, radius = %.2f\n', m, 3*n, nu, radius);
 
-%% finite eigenvalues
+% finite eigenvalues
 lmd = randn(n, 1) + 1i*randn(n, 1); % exact eigenvalue
 t = length(lmd(abs(lmd-center) < radius));
 fprintf('# of target eigenvalues: %d\n', t);
@@ -51,7 +51,7 @@ end
 A1 = sparse(1:n, 1:n, lmd, n, n);
 B1 = sparse(1:n, 1:n, ones(n, 1), n, n);
 
-%% infinite eigenvalues
+% infinite eigenvalues
 r_ind = sort(randperm(n-1, n/2));
 A2 = speye(n, n);
 B2 = sparse(r_ind, r_ind+1, 1, n, n);
