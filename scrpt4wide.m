@@ -2,8 +2,8 @@
 clear; close all; rng(0, 'twister');
 
 % uncomment one of the following cases
-m = 10; n = 100; nu = 0;
-% m = 100; n = 1000; nu = 0;
+% m = 10; n = 100; nu = 0;
+m = 100; n = 1000; nu = 0;
 % m = 1000; n = 10000; nu = 0;
 % m = 10000; n = 100000; nu = 0;
 
@@ -33,6 +33,8 @@ fprintf('# of target eigenvalues: %d\n', t);
 figure(1) 
 fig0 = plot(lmd, 'go');
 hold on
+xlabel('Re', 'Interpreter', 'latex')
+ylabel('Im', 'Interpreter', 'latex')
 
 if m == 10000 && n == 100000
     load A30000x100000

@@ -31,11 +31,6 @@ plot(z, 'm');
 fprintf('\n-- running --\n');
 tic; [V2, lmd2] = proj_nonsq(A, B, param); toc
 
-%% Plot the eigenvalues 
-ind2 = abs(lmd2-param.center) < param.radius; 
-fig2 = plot(lmd2(ind2), 'rx');
-legend('Exact eigenvalue', 'Target region', 'Computed eigenvalue')
-
 % Compute the relative resitual norm
 nrmA = norm(A, 'fro');
 nrmB = norm(B, 'fro');
@@ -53,3 +48,7 @@ end
 
 fprintf('relative residual norm %.2e for lmd = %.8e + %.8e\n', [resvec2(ind3)'; real(lmd2(ind3))'; imag(lmd2(ind3))']);
 fprintf('relative error %.2e for lmd = %.8e + %.8e\n', [minval ./ abs(lmd(ind))'; real(lmd2(ind3))'; imag(lmd2(ind3))']);
+
+%% Plot the eigenvalues 
+fig2 = plot(lmd2(ind3), 'rx');
+legend('Exact eigenvalue', 'Target region', 'Computed eigenvalue')
