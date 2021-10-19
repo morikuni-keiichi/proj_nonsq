@@ -15,7 +15,7 @@ or to generate a wide test matrix pencil, execute the following:
 
 To run the main function, execute the following:
 ```
->> scrpt4drive
+>> scrpt4driver
 ```
 Then the elapsed CPU time, relative residual norm, and the relative error are output, as well as the plots of the exact eigenvalues and computed eigenvalues in the complex plane.
 
