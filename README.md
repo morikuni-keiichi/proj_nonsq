@@ -19,6 +19,8 @@ To run the main function, execute the following:
 ```
 Then the elapsed CPU time, relative residual norm, and the relative error are output, as well as the plots of the exact eigenvalues and computed eigenvalues in the complex plane.
 
+[fig.pdf](https://github.com/morikuni-keiichi/proj_nonsq/files/7374349/fig.pdf)
+
 ### References
 Keiichi Morikuni, Projection method for eigenvalue problems of linear nonsquare matrix pencils,
 SIAM Journal on Matrix Analysis and Applications, Volume 42, Number 3,
