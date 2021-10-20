@@ -19,7 +19,7 @@ To run the main function, execute the following:
 ```
 >> scrpt4driver
 ```
-Then the elapsed CPU time, relative residual norm, and the relative error of the computed eigenvalues are output, as well as the plots of the exact eigenvalues and computed eigenvalues in the complex plane.
+The elapsed CPU time, relative residual norm, and the relative error of the computed eigenvalues are output, as well as the plots of the exact eigenvalues and computed eigenvalues in the complex plane.
 
 <img src="https://user-images.githubusercontent.com/15831262/137937710-319a4a88-c14f-4702-a52e-418b2c5567f4.jpg" width="520pt">
 
