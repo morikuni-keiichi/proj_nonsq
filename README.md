@@ -29,3 +29,15 @@ SIAM Journal on Matrix Analysis and Applications, Volume 42, Number 3,
 pp. 1381-1400, September 20, 2021. DOI: [10.1137/20M1377886](https://doi.org/10.1137/20M1377886)
 
 If you use the codes in research for publication, please cite this paper.
+```
+@Article{Morikuni2021SIMAX,
+  author    = {Keiichi Morikuni},
+  doi       = {10.1137/20m1377886},
+  number    = {3},
+  pages     = {1381--1400},
+  title     = {Projection method for eigenvalue problems of linear nonsquare matrix pencils},
+  volume    = {42},
+  year      = {2021},
+  publisher = {Society for Industrial {\&} Applied Mathematics ({SIAM})},
+}
+```
