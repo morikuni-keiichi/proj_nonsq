@@ -33,6 +33,7 @@ If you use the codes in research for publication, please cite this paper.
 @Article{Morikuni2021SIMAX,
   author    = {Keiichi Morikuni},
   doi       = {10.1137/20m1377886},
+  journal   = {SIAM Journal on Matrix Analysis and Applications},
   number    = {3},
   pages     = {1381--1400},
   title     = {Projection method for eigenvalue problems of linear nonsquare matrix pencils},
