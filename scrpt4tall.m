@@ -40,14 +40,6 @@ hold on
 xlabel('Re', 'Interpreter', 'latex')
 ylabel('Im', 'Interpreter', 'latex')
 
-
-if m == 100000 && n == 10000
-    load A100000x30000
-    load B100000x30000
-    load lmd100000x30000
-    return
-end
-
 A1 = sparse(1:n, 1:n, lmd, n, n);
 B1 = sparse(1:n, 1:n, ones(n, 1), n, n);
 
