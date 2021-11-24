@@ -25,7 +25,7 @@ end
 
 fprintf('m = %d, n = %d, nu = %d, radius = %.2f\n', 3*m, n, nu, radius);
 
-%% finite eigenvalues
+% finite eigenvalues
 lmd = randn(m, 1) + 1i*randn(m, 1); % exact eigenvalue
 t = length(lmd(abs(lmd-center) < radius));
 fprintf('# of target eigenvalues: %d\n', t);
@@ -36,17 +36,10 @@ hold on
 xlabel('Re', 'Interpreter', 'latex')
 ylabel('Im', 'Interpreter', 'latex')
 
-if m == 10000 && n == 100000
-    load A30000x100000
-    load B30000x100000
-    load lmd30000x100000
-    return
-end
-
 A1 = sparse(1:m, 1:m, lmd, m, m);
 B1 = sparse(1:m, 1:m, ones(m, 1), m, m);
 
-%% infinite eigenvalues
+% infinite eigenvalues
 r_ind = sort(randperm(m-1, m/2));
 A2 = speye(m, m);
 B2 = sparse(r_ind+1, r_ind, 1, m, m);
