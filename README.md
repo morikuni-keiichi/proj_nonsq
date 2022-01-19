@@ -29,7 +29,7 @@ SIAM Journal on Matrix Analysis and Applications, Volume 42, Number 3,
 pp. 1381-1400, September 20, 2021. DOI: [10.1137/20M1377886](https://doi.org/10.1137/20M1377886)
 
 If you use the codes in research for publication, please cite this paper.
-```
+```bibtex
 @Article{Morikuni2021SIMAX,
   author    = {Keiichi Morikuni},
   doi       = {10.1137/20m1377886},
