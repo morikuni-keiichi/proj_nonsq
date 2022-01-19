@@ -7,16 +7,16 @@ The program is designed to compute the eigenvalues in a circle region and the co
 ## Usage
 
 To generate a tall test matrix pencil, execute the following:
-```
+```shell
 >> scrpt4tall
 ```
 or to generate a wide test matrix pencil, execute the following:
-```
+```shell
 >> scrpt4wide
 ```
 
 To run the main function, execute the following:
-```
+```shell
 >> scrpt4driver
 ```
 The elapsed CPU time, relative residual norm, and the relative error of the computed eigenvalues are output, as well as the plots of the exact eigenvalues and computed eigenvalues in the complex plane.
